@@ -1,0 +1,11 @@
+.table, th{
+    border: 2px solid wheat;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+td{
+    border: 2px solid whitesmoke;
+    vertical-align: top;
+    font-family: 'Courier New', Courier, monospace;
+}
+

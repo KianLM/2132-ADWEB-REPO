@@ -1,0 +1,17 @@
+.container-1{
+   float: left;
+   clear: left;
+   margin-left: 10%;
+   margin-top: 5%;
+   font-family: 'Courier New', Courier, monospace;
+}
+.container-2{
+    float: right;
+    clear: right;
+    margin-right: 10%;
+    margin-top: 5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.col-md-8{
+    background-color:wheat;
+}

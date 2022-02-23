@@ -1,0 +1,19 @@
+<div>
+    <h1 style="text-align: center; margin-top: 3%; margin-bottom: 3%; font-family: 'Courier New', Courier, monospace;"> Below are details about our products</h1>
+</div>
+<table class="table"  style="width:80%; margin-left: 10%; ">
+    <tr style="height: 50px; vertical-align: middle;" >
+      <th >ID</th>
+      <th  >IMAGE</th>
+      <th  >NAME</th>
+      <th  >DESCRIPTION</th>
+    </tr>
+    <tr  *ngFor="let prod of Products; trackBy: trackByData"  [style]="prod.style" >
+      <!--ngFor is used here to display list of partner companies -->
+      <td>{{prod.id}} </td>
+      <td ><img id="microsoft" class="org" [src]="prod.image" style="width: 180px; height: 180px;"></td>
+      <td>{{prod.name}}</td>
+      <td>{{prod.description}}</td>
+    </tr>
+    
+      </table>

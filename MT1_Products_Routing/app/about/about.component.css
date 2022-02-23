@@ -1,0 +1,15 @@
+.container-1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.container-2{
+    text-align: center;
+    margin-left: 20%;
+    font-family: 'Courier New', Courier, monospace;
+}
+h5{
+    font-style:italic;
+}

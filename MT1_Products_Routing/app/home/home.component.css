@@ -1,0 +1,28 @@
+.container-1 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Centered text */
+  .centered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.26);
+              color: black;
+              padding: 10%;
+              width: 90%;
+    font-family: 'Courier New', Courier, monospace;
+    color: wheat;
+  }
+  .btn{
+      border: 1px solid black;
+      margin-top: 8%;
+  }
+  .content1{
+      text-align: center;
+      margin-top: 4%;
+      margin-bottom: 4%;
+  }
